@@ -10,11 +10,7 @@ export const useCounterStore = defineStore('counter', () => {
     count.value++
   }
 
-  function zero() {
-    count.value = 0;
-  }
-
-  return { count, doubleCount, increment, zero }
+  return { count, doubleCount, increment }
 }, {
   persist: {
     enabled: true,
