@@ -7,6 +7,7 @@
     <p>Count: {{ counterStore.count }}</p>
     <p>Double Count: {{ counterStore.doubleCount }}</p>
     <button @click="counterStore.increment">Increment</button>
+    <button @click="counterStore.zero">delete</button>
   </div>
 </template>
 
